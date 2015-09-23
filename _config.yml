@@ -1,0 +1,12 @@
+author: Stephen A. Fuqua
+description: FlightNode: A Platform for Avian Conservation Monitoring
+url: https://flightnode.github.io
+
+
+permalink: /archive/:year/:month/:day/:title/
+paginate: 10
+paginate_path: "page/:num"
+category_dir: categories
+
+gems:
+  - jeykll-sitemap
