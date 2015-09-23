@@ -7,7 +7,7 @@ categories: [meta]
 sharing: true
 ---
 
-## The initial announcement
+## The Initial Announcement
 
 Citizen-science: meet open source software. I'm starting an open source project 
 called FlightNode, which will be a platform for citizen science bird 
@@ -32,3 +32,4 @@ develop one feature, your help would be fantastic. And it would be a great
 Code will be posted at [https://github.com/FlightNode](https://github.com/FlightNode). 
 Let me know if you're interested, and I'll invite you to join the FlightNode 
 organization on GitHub.
+
