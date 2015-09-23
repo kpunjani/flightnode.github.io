@@ -1,0 +1,20 @@
+/*
+ * FlightNode
+ */
+
+body {
+	font-family: Lato, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #4185D3;
+}
+
+header {
+	padding: 1em;
+}
+
+#content {
+	background-color: #C5CCD4;
+	padding: 1em;
+	margin: 1em;
+}
