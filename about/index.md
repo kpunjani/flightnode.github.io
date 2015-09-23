@@ -1,4 +1,13 @@
-# Announcing FlightNode - 20 September 2015
+---
+layout: page
+title: About FlightNode
+date: 20 September 2015
+comments: false
+categories: [meta]
+sharing: true
+---
+
+## The initial announcement
 
 Citizen-science: meet open source software. I'm starting an open source project 
 called FlightNode, which will be a platform for citizen science bird 
