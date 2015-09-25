@@ -18,3 +18,11 @@ header {
 	padding: 1em;
 	margin: 1em;
 }
+
+.meta {
+	margin-bottom: 1em;
+}
+
+article {
+	margin-bottom: 2em;
+}

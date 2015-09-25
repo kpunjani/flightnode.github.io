@@ -19,7 +19,7 @@ The general problem, succinctly stated:
 > North America, there is growing concern about the impacts this 
 > habitat loss will have on native bird populations. With many 
 > migratory bird species in decline, it is essential to assess 
-> the effectiveness of our conservation initiatives [1](#1).
+> the effectiveness of our conservation initiatives \[[1](#1)\].
 
 Of course, this applies around the world, not just in North America.
 There are hundreds of organizations and researchers working to 
@@ -27,7 +27,7 @@ understand the characteristics of current bird populations, and our
 impact on sustaining and growing those populations. The need for this
 work grows ever more pressing for those who recognize the value
 of maintaining diverse and vibrant ecosystems, especially in light
-of climate change [2](#2). 
+of climate change \[[2](#2)\]. 
 
 Many people use a popular, and frankly excellent, application called 
 [eBird](http://www.ebird.org) for collecting bird population data
@@ -55,6 +55,6 @@ cost and burden of implementing an online management tool.
 [IbaMonitoring.org](http://www.ibamonitoring.org/about/Default.aspx), 
 2010.
 
-<a name"2">2.</a> To understand the potential impacts of climate 
+<a name="2">2.</a> To understand the potential impacts of climate 
 change on North American birds, see [Audubon's Birds and Climate Change
 Report](http://climate.audubon.org/), published earlier this year.
