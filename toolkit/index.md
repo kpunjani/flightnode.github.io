@@ -20,6 +20,18 @@ Suggested:
 
 * Visual Studio Code for any HTML, CSS, JS work.
 
+## Workspace Setup
+
+* Fork your repositories off of the main repositories of FlightNode.
+* Install Git & Git.commandline using Chocolatey. Prefer not to use Git through Visual Studio Community Edition. Visual Studio Code still has some reasonable GUI control for GitHub.
+* Locally, create a directory called 'Workspaces' (or any name of your choice).
+* In Windows explorer, right-click on 'Workspaces' and choose Git Bash. That will open the Unix-like bash prompt window, with c:\Workspaces as the current working directory.
+* mkdir FlightNode
+* cd FlightNode git clone https://github.com/<username>/FlightNode.Identity
+* cd FlightNode git clone https://github.com/<username>/FlightNode.Common
+* cd FlightNode git clone https://github.com/<username>/flightnode.github.io
+* If you are new to GitHub, then here is a fun tutorial to get you started https://try.github.io/levels/1/challenges/1
+
 ## Testing
 
 * Unit Test: xUnit.Net. Suggest installing the Visual Studio runner.
