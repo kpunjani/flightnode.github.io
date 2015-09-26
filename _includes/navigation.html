@@ -1,5 +1,5 @@
 <nav class="navbar navbar-default">
-  <div class="container-fluid">
+  <div>
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
@@ -15,11 +15,20 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="/about">About</a></li>
-        <li><a href="/toolkit">Toolkit</a></li>
-        <li><a href="/archive">Archives</a></li>
-        <li><a href="https://github.com/FlightNode/flightnode.github.io/issues/new">Contact</a></li>
-        <li><a href="/contributors">Contributors</a></li>
+        <li><a href="/about" title="About FlightNode" data-toggle="tooltip" data-placement="bottom">About</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Coding<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/toolkit" title="Development environment and frameworks used" data-toggle="tooltip"
+              data-placement="right">Toolkit</a></li>
+            <li><a href="#" title="Not yet available" data-toggle="tooltip" data-placement="right">Architecture</a></li>
+            <li><a href="#" title="Not yet available" data-toggle="tooltip" data-placement="right">Integration</a></li>
+          </ul>
+        </li>
+        <li><a href="/archive" title="Blog Archives" data-toggle="tooltip" data-placement="bottom">Archives</a></li>
+        <li><a href="https://github.com/FlightNode/flightnode.github.io/issues/new" title="Submit GitHub Issue to Contact Us"
+          data-toggle="tooltip" data-placement="bottom">Contact</a></li>
+        <li><a href="/contributors" title="List of Code Contributors" data-toggle="tooltip" data-placement="bottom">Contributors</a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse -->

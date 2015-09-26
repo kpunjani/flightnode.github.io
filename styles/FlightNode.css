@@ -13,10 +13,16 @@ header {
 	padding: 1em;
 }
 
+header h3 {
+	text-shadow: 0px 1px 3px rgba(256, 256, 256, 0.5);
+}
+
+
+
 #content {
 	background-color: #C5CCD4;
 	padding: 1em;
-	margin: 1em;
+	border-radius: 4px;
 }
 
 .meta {
@@ -25,4 +31,23 @@ header {
 
 article {
 	margin-bottom: 2em;
+	padding-bottom: 2em;
+	border-bottom: 1px solid #4185D3;
+}
+
+footer {
+	margin-top: 1em;
+	padding: 1em;
+}
+
+footer a {
+	color: #C5CCD4;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+h1 {
+	text-shadow: 0px 1px 1px rgba(0, 0, 128, 0.3);
 }

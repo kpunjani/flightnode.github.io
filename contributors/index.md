@@ -3,11 +3,9 @@ layout: page
 title: "Contributors"
 date: 2015-09-22 -0800
 comments: false
-categories: [project blog]
+categories: [project, blog]
 sharing: false
 ---
-
-## Contributors
 
 <ul>
 {% for contributor in site.github.contributors %}
