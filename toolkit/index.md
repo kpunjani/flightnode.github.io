@@ -29,7 +29,7 @@ Suggested:
   with c:\Workspaces as the current working directory. Run these commands
   to create your local repositories (note - there will be more than these three in the future): 
 
-```bash
+```
 > mkdir FlightNode
 > cd FlightNode git clone https://github.com/*<username>*/FlightNode.Identity
 > cd FlightNode git clone https://github.com/*<username>*/FlightNode.Common
