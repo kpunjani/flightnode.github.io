@@ -9,14 +9,14 @@ layout: default
     <h1 class="title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
     {% endif %}
     {% if page.date %}            
-    <h4 id="post-subtitle"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b. %d, %Y' }}</time></h4>
+    <h4 id="post-subtitle"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%b. %d, %Y' }}</time></h4>
     {% endif %}
     <div class="entry-content">
         {{ content }}
 
-        {% if post.category %}
+        {% if page.category %}
             {% for site_category in site.data.categories %}
-                {% if site_category.slug == post.category %}
+                {% if site_category.slug == page.category %}
                     {% assign category = site_category %}
                 {% endif %}
             {% endfor %}
@@ -27,9 +27,9 @@ layout: default
             {% assign category_content = '' %}
         {% endif %}
 
-        {% if post.tags.size > 0 %}
-            {% capture tags_content %} with {% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}
-            {% for post_tag in post.tags %}
+        {% if page.tags.size > 0 %}
+            {% capture tags_content %} with {% if page.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}
+            {% for post_tag in page.tags %}
                 {% for data_tag in site.data.tags %}
                     {% if data_tag.slug == post_tag %}
                         {% assign tag = data_tag %}
