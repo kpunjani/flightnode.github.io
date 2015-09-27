@@ -15,12 +15,17 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="/about" title="About FlightNode" data-toggle="tooltip" data-placement="bottom">About</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/about" title="Original project announcement" data-toggle="tooltip" data-placement="right">Description</a></li>
+            <li><a href="/about/users" title="User and Role Modeling" data-toggle="tooltip" data-placement="right">User Modeling</a></li>
+          </ul>
+        </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Coding<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="/toolkit" title="Development environment and frameworks used" data-toggle="tooltip"
-              data-placement="right">Toolkit</a></li>
+            <li><a href="/toolkit" title="Development environment and frameworks used" data-toggle="tooltip" data-placement="right">Toolkit</a></li>
             <li><a href="#" title="Not yet available" data-toggle="tooltip" data-placement="right">Architecture</a></li>
             <li><a href="#" title="Not yet available" data-toggle="tooltip" data-placement="right">Integration</a></li>
           </ul>

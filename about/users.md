@@ -8,29 +8,42 @@ tags: [user]
 sharing: true
 ---
 
-Description of user roles to consider in the FlightNode platform.
+Description of user and roles to consider in the FlightNode platform.
 
-## Anonymous
+## Users
+
+Data collected for users (required in bold):
+
+* **Given name**
+* **Family name**
+* **Username**
+* **E-mail address**
+* Phone number
+* Mobile phone number
+
+## Roles
+
+### Anonymous
 
 Not logged-in, general Internet user. Surfs content and views data output.
 No data reporting capabilities.
 
-## Reporter
+### Reporter
 
 Typically a volunteer, but could be project staff. Reports on bird monitoring
 observations and time spent out in the field.
 
-## Lead
+### Lead
 
 A super-reporter, who leads teams of reporters and may have some oversight
 capability within the system - e.g. approving Reporters' data submissions.
 
-## Coordinator
+### Coordinator
 
 A project coordinator who has administrative capability within a project, 
 including management of users and roles, content management, and complete
 oversight of data.
 
-## Administrator
+### Administrator
 
 Administers multiple projects, including appointment of Coordinators.
