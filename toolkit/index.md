@@ -3,7 +3,8 @@ layout: page
 title: Development Toolkit
 date: 20 September 2015
 comments: false
-categories: [tools]
+category: programming
+tags: [toolkit]
 sharing: true
 ---
 
