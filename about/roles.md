@@ -3,7 +3,8 @@ layout: page
 title: User Roles
 date: 27 September 2015
 comments: false
-categories: [meta]
+category: about
+tags: [user]
 sharing: true
 ---
 

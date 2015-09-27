@@ -3,7 +3,8 @@ layout: page
 title: "Just starting to learn Jeykll"
 date: 2015-09-22
 comments: true
-categories: [meta]
+category: about
+tags: [meta]
 ---
 
 Recently I ran across and old article from Phil Haack, about moving his
