@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Development Toolkit
-date: 20 September 2015
 comments: false
 category: programming
 tags: [toolkit]

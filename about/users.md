@@ -1,7 +1,6 @@
 ---
 layout: page
-title: User Roles
-date: 27 September 2015
+title: User and Roles
 comments: false
 category: about
 tags: [user]
