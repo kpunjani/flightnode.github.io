@@ -44,13 +44,13 @@ example from SQL Server to MySQL or even from one ORM to another.
 Typical interaction with secured component:
 
 ```
-  O        Identity         DataCollection     Database
- /|\       --------         --------------     ----------
-  |   -->  Authenticate
- / \  <--  (token)
-      (token,data) -------> SubmitData
-           Validate  <----- (token)   
-                            (data) -----------> Save    
+  O        Identity         DataCollection     Database  
+ /|\       --------         --------------     ----------  
+  |   -->  Authenticate  
+ / \  <--  (token)  
+      (token,data) -------> SubmitData  
+           Validate  <----- (token)     
+                            (data) -----------> Save      
  
 ```
 
@@ -61,28 +61,30 @@ Typical interaction with secured component:
 Angular.js website serving as a demonstration / reference implementation of
 the FlightNode platform.
 
-https://github.com/FlightNode/FlightNode.Demo
+[Repository](https://github.com/FlightNode/FlightNode.Demo)
 
 #### FlightNode.Identity
 
 .NET 4.5.2 package based on ASP.NET Identity, providing authentication and authorization
 using OAuth2.
 
-https://github.com/FlightNode/FlightNode.Identity
+[Repository](https://github.com/FlightNode/FlightNode.Identity)
 
 #### FlightNode.DataCollection
 
 .NET 4.5.2 package providing data collection and reporting capabilities. May need to
 include user management here.
 
-https://github.com/FlightNode/FlightNode.DataCollection
+[Repository](https://github.com/FlightNode/FlightNode.DataCollection)
 
 #### FlightNode.Common
 
 .NET 4.5.2 library for cross-cutting concerns used in the other projects.
 
-https://github.com/FlightNode/FlightNode.Common
+[Repository](https://github.com/FlightNode/FlightNode.Common)
 
 #### flightnode.github.io
 
 Source files for this website.
+
+[Repository](https://github.com/FlightNode/flightnode.github.io)
