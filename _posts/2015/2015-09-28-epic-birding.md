@@ -64,12 +64,7 @@ demand in other quarters. Citizen-science, it is time to meet your ideological
 cousin: open source.
 </p>
 </div>
-<div class="col-md-4">
-
-<div>
-<img src="/images/chainOfWetlands_SOSP.jpg" style="width: 250; height: 259;">
-<p>Three Song Sparrows hiding in pond-side brush.</p>
-</div>
+<div class="col-md-4 text-right">
 
 <div>
 <img src="/images/chainOfWetlands_volunteers.JPG" style="width: 250; height: 228;">
