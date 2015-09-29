@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "An Epic Morning of Birding"
 date: 2015-09-28
 comments: true
