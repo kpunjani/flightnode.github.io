@@ -14,6 +14,10 @@ p, li {
 	line-height: 2em;
 }
 
+p {
+	margin: 0px 0px 1.5em;
+}
+
 header {
 	padding: 1em;
 }
@@ -38,10 +42,6 @@ article {
 	margin-bottom: 2em;
 }
 
-article + arcticle {
-	border-top: 1px solid #4185D3;
-	padding-top: 2em;
-}
 
 footer {
 	margin-top: 1em;
