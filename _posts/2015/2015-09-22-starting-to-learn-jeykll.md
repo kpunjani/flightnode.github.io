@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Just starting to learn Jeykll"
 date: 2015-09-22
 comments: true

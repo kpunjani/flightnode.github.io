@@ -5,15 +5,18 @@ layout: default
 {% assign post = page %}
 
 <article class="page">
-    {% if page.title %}
-    <h1 class="title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+    {% if post.title %}
+    <h1 class="title">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</h1>
+    {% endif %}
+    {% if post.date %}            
+    <h4 id="post-subtitle"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b. %d, %Y' }}</time></h4>
     {% endif %}
     <div class="entry-content">
         {{ content }}
 
-        {% if page.category %}
+        {% if post.category %}
             {% for site_category in site.data.categories %}
-                {% if site_category.slug == page.category %}
+                {% if site_category.slug == post.category %}
                     {% assign category = site_category %}
                 {% endif %}
             {% endfor %}
@@ -24,9 +27,9 @@ layout: default
             {% assign category_content = '' %}
         {% endif %}
 
-        {% if page.tags.size > 0 %}
-            {% capture tags_content %} with {% if page.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}
-            {% for post_tag in page.tags %}
+        {% if post.tags.size > 0 %}
+            {% capture tags_content %} with {% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}
+            {% for post_tag in post.tags %}
                 {% for data_tag in site.data.tags %}
                     {% if data_tag.slug == post_tag %}
                         {% assign tag = data_tag %}
@@ -45,7 +48,7 @@ layout: default
         
      </div>
 </article>
-{% if site.disqus_short_name and page.comments == true %}
+{% if site.disqus_short_name and post.comments == true %}
 <section id="comment">
     <h1 class="title">Comments</h1>
     <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>

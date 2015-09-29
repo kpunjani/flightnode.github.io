@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Why Create a Platform for Avian Conservation Monitoring?"
 date: 2015-09-24
 comments: true
