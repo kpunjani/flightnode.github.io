@@ -43,7 +43,7 @@ example from SQL Server to MySQL or even from one ORM to another.
 
 Typical interaction with secured component:
 
-```
+<pre>
   O        Identity         DataCollection     Database  
  /|\       --------         --------------     ----------  
   |   -->  Authenticate  
@@ -51,7 +51,7 @@ Typical interaction with secured component:
       (token,data) -------> SubmitData  
            Validate  <----- (token)     
                             (data) -----------> Save       
-```
+</pre>
 
 ### Component Projects
 
