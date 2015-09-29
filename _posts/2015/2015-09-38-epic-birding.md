@@ -17,9 +17,9 @@ complained about the mosquitoes and the stench of sewage from the treatment
 plant not far upstream.
 
 
-<div class="row">
+<!--div class="row">
 
-<div class="col-md-8">
+<div class="col-md-8"-->
 Concerned about the quality of the water, and needing an outlet to lower
 the river's [flood levels near downtown](http://www.trinityrivercorridor.com/resources/history-dallas-floodway-extension.html), 
 someone decided to do something. The City took over the courses, much to the 
@@ -55,9 +55,9 @@ citizen-science volunteers in monitoring the rehabilitation of the land. And
 while that particular project might never use the platform, there is real
 demand in other quarters. Citizen-science, it is time to meet your ideological
 cousin: open source. 
-</div>
+<!--/div-->
 
-<div class="col-md-4">
+<!--div class="col-md-4">
 <div>
 <img src="/images/chainOfWetlands_SOSP.jpg" style="width: 250; height: 259;">
 <p>Three Song Sparrows hiding in pond-side brush.</p>
@@ -71,7 +71,7 @@ cousin: open source.
 <p>White Crowned Sparrow in a netleaf hackberry tree.</p>
 </div>
 </div>
-</div>
+</div-->
 
 <img style="width: 100%; height: auto; border: 0;" 
 src="/images/chainOfWetlands_PrairieFlowers.jpg" alt="Chain of Wetlands - prairie flowers">

@@ -18,7 +18,7 @@ it formatted. This is just the start of getting the framework going, so
 that I can get all the text and pictures out of my head and into 
 documentation that other team members can use.
 
-## Startup References:
+### Startup References:
 
 * [Jekyll: Transform your plain text into static websites and bogs](http://jekyllrb.com/)
 * [Using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages/#configuring-jekyll)
