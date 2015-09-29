@@ -76,7 +76,6 @@ cousin: open source.
 <img style="width: 100%; height: auto; border: 0;" 
 src="/images/chainOfWetlands_PrairieFlowers.jpg" alt="Chain of Wetlands - prairie flowers">
 
-[Additional reading on the Dallas Floodway Extension 
-Project](http://www.swf.usace.army.mil/Missions/WaterSustainment/DallasFloodwayExtension.aspx)
+[Additional reading on the Dallas Floodway Extension Project](http://www.swf.usace.army.mil/Missions/WaterSustainment/DallasFloodwayExtension.aspx)
 
 All photos by Stephen A. Fuqua.
