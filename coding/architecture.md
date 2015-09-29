@@ -44,14 +44,13 @@ example from SQL Server to MySQL or even from one ORM to another.
 Typical interaction with secured component:
 
 ```
-  O        Identity         DataCollection     Database
- /|\       --------         --------------     ----------
-  |   -->  Authenticate
- / \  <--  (token)
-      (token,data) -------> SubmitData
-           Validate  <----- (token)   
-                            (data) -----------> Save    
- 
+  O        Identity         DataCollection     Database  
+ /|\       --------         --------------     ----------  
+  |   -->  Authenticate  
+ / \  <--  (token)  
+      (token,data) -------> SubmitData  
+           Validate  <----- (token)     
+                            (data) -----------> Save       
 ```
 
 ### Component Projects
