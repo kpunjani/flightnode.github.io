@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Authentication and Authorization"
-date: 2015-09-28
+date: 2015-10-04
 comments: true
 category: API
 tags: [code]
@@ -41,7 +41,7 @@ LocalStorage.
 Copy the value of the `access_token` from the response so that you can use 
 it in subsequent steps.
 	
-![Authenticate request](http://flightnode.github.io/images/authenticate1.png)
+![Authenticate request](http://flightnode.github.io/images/authentication1.png)
 
 ## 	Modify the User
 	
@@ -66,7 +66,7 @@ for show and it is not necessary to specify that.
 	  "password": "dirigible"
     }
 
-![Attempt to modify user](http://flightnode.github.io/images/authenticate2.png)
+![Attempt to modify user](http://flightnode.github.io/images/authentication2.png)
 
 ## Create Authorization Header
 
@@ -85,7 +85,7 @@ So what do we need? We need another Header:
 
 And now&hellip;
 
-![Successful modification](http://flightnode.github.io/images/authenticate3.png)
+![Successful modification](http://flightnode.github.io/images/authentication3.png)
 
 Everything is OK! 
 
