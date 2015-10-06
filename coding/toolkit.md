@@ -30,13 +30,13 @@ Suggested:
   to create your local repositories (note - there will be more than these three in the future): 
 
 
-    > mkdir FlightNode
-    > cd FlightNode git clone https://github.com/*<username>*/FlightNode.Identity
-    > cd FlightNode git clone https://github.com/*<username>*/FlightNode.Common
-    > cd FlightNode git clone https://github.com/*<username>*/flightnode.github.io
+    mkdir FlightNode
+    cd FlightNode git clone https://github.com/*<username>*/FlightNode.Identity
+    cd FlightNode git clone https://github.com/*<username>*/FlightNode.Common
+    cd FlightNode git clone https://github.com/*<username>*/flightnode.github.io
 
 
-* If you are new to GitHub, then here is a fun tutorial to get you started https://try.github.io/levels/1/challenges/1
+* If you are new to GitHub, then here is a <a href="https://try.github.io/levels/1/challenges/1">fun tutorial</a> to get you started. 
 
 ## Testing
 
