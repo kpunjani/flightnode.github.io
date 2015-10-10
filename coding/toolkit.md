@@ -18,7 +18,15 @@ Minimum environment:
 
 Suggested:
 
-* Visual Studio Code for any HTML, CSS, JS work.
+* [Visual Studio Code](https://code.visualstudio.com/Docs) for any HTML, CSS, JS work.
+  * The [TypeScript Definition manager](http://definitelytyped.org/tsd/) is used for installing
+    IntelliSense definition files. Install `tsd` globally using `npm -g install tsd`.
+  * As with bower, npm, etc., you need to run install anytime the tsd.json file changes. This 
+    will download type definitions and install them into the *typings* directory. At a command
+    prompt, just run `tsd install`.    
+  * These typings give you lovely IntelliSense within VSCode, but they don't help with JSHint.
+    To eliminate JSHint warnings on legitimate globals, add the library name to the .jshintrc
+    file.
 
 ## Workspace Setup
 
