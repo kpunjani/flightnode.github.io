@@ -34,14 +34,14 @@ Suggested:
 * Run Git-Bash (you'll may want to pin it to the taskbar or dock for easy access)
 * Create your local copies of your GitHub repositories 
 
-{% higlight shell %}
+```bash
 mkdir FlightNode
 cd FlightNode 
 git clone https://github.com/*<username>*/FlightNode.Identity
 git clone https://github.com/*<username>*/FlightNode.Common
 git clone https://github.com/*<username>*/flightnode.Demo
 git clone https://github.com/*<username>*/flightnode.DataCollection
-{% endhighlight %}
+```
 
 New to Git? [Here are some tips and tutorials)[/coding/git] 
 
