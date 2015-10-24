@@ -7,8 +7,6 @@ tags: [toolkit]
 sharing: true
 ---
 
-*Just sketching in the dev environment for now...*
-
 ## Development Environment
 
 Minimum environment:
@@ -31,20 +29,21 @@ Suggested:
 ## Workspace Setup
 
 * Fork your repositories off of the main repositories of FlightNode.
-* Install Git & Git.commandline using Chocolatey. Prefer not to use Git through Visual Studio Community Edition. Visual Studio Code still has some reasonable GUI control for GitHub.
-* Locally, create a directory called 'Workspaces' (or any name of your choice).
-* In Windows explorer, right-click on 'Workspaces' and choose Git Bash. That will open the Unix-like bash prompt window, 
-  with c:\Workspaces as the current working directory. Run these commands
-  to create your local repositories (note - there will be more than these three in the future): 
+* Install Git 2.x using Chocolatey. 
+* Locally, create a directory called `c:\Workspaces\FlightNode` (or any name of your choice).
+* Run Git-Bash (you'll may want to pin it to the taskbar or dock for easy access)
+* Create your local copies of your GitHub repositories 
 
+{% higlight shell %}
+mkdir FlightNode
+cd FlightNode 
+git clone https://github.com/*<username>*/FlightNode.Identity
+git clone https://github.com/*<username>*/FlightNode.Common
+git clone https://github.com/*<username>*/flightnode.Demo
+git clone https://github.com/*<username>*/flightnode.DataCollection
+{% endhighlight %}
 
-    mkdir FlightNode
-    cd FlightNode git clone https://github.com/*<username>*/FlightNode.Identity
-    cd FlightNode git clone https://github.com/*<username>*/FlightNode.Common
-    cd FlightNode git clone https://github.com/*<username>*/flightnode.github.io
-
-
-* If you are new to GitHub, then here is a <a href="https://try.github.io/levels/1/challenges/1">fun tutorial</a> to get you started. 
+New to Git? [Here are some tips and tutorials)[/coding/git] 
 
 ## Testing
 
