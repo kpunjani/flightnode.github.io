@@ -34,7 +34,7 @@ Suggested:
 * Run Git-Bash (you'll may want to pin it to the taskbar or dock for easy access)
 * Create your local copies of your GitHub repositories 
 
-```Shell
+```shell
 mkdir FlightNode
 cd FlightNode 
 git clone https://github.com/*<username>*/FlightNode.Identity
