@@ -13,11 +13,9 @@ redcarpet:
   extensions:
     - tables
     - footnotes
-    - hard_wrap
     - no_intra_emphasis
     - autolink
     - strikethrough
-
 
 gems:
   - jeykll-sitemap
