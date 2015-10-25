@@ -58,13 +58,13 @@ a typical day might look like this:
    
 ## Graphical Git
 
-## SourceTree
+### SourceTree
    
 Many people really like SourceTree, [a tool from Atlassian](https://www.sourcetreeapp.com/). 
 I have it installed and have not yet really used it, because I'm completely 
 comfortable with using the command line.
    
-## Visual Studio Code
+### Visual Studio Code
 
 Visual Studio Code's Git support is top-notch, when you don't feel like using
 the command line. You can use the tool to perform:
@@ -82,7 +82,7 @@ of un-staging and/or reverting your code changes very easy.
 
 ![Git in Visual Studio Code](http://flightnode.github.io/images/vscodeGit.png)
 
-## Visual Studio 2015
+### Visual Studio 2015
 
 Visual Studio 2015's support is actually pretty good too. I was biased against
 it for a long time, probably because they automatically stage files ("tracked 
@@ -91,4 +91,4 @@ most people that's probably not a bad thing. And while I haven't used it
 in VS2013 in many months, I feel like the 2015 experience is somehow a little
 better and a little more powerful than its predecessor.
 
-![Git in Visual Studio 2015](http://flightnode.github.io/images/vscodeGit.png)
+![Git in Visual Studio 2015](http://flightnode.github.io/images/vs2015Git.png)
