@@ -43,7 +43,7 @@ git clone https://github.com/*<username>*/flightnode.Demo
 git clone https://github.com/*<username>*/flightnode.DataCollection
 ```
 
-New to Git? [Here are some tips and tutorials)[/coding/git] 
+New to Git? [Here are some tips and tutorials](/coding/git) 
 
 ## Testing
 

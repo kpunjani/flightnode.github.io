@@ -8,6 +8,14 @@ permalink: /archive/:year/:month/:day/:title/
 paginate: 10
 paginate_path: "page/:num"
 category_dir: categories
+redcarpet:
+  extensions:
+    - footnotes
+    - hard_wrap
+    - no_intra_emphasis
+    - autolink
+    - strikethrough
+highlighter: pygments
 
 gems:
   - jeykll-sitemap
