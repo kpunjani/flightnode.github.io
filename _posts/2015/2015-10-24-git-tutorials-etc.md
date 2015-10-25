@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Git Tips and Tutorials
-comments: false
+title: Git Tutorials, Workflow, and GUI
+date: 2015-10-24
+comments: true
 category: programming
 tags: [toolkit]
 sharing: true
@@ -11,7 +12,7 @@ sharing: true
 
 Git is a fabulous tool for source control management. While incredibly powerful, 
 it can be a little daunting to learn at first. The following tutorials will
-help. They are organized from simplest to more advanced.
+help. They are organized from basic to more advanced.
 
 * [tryGit](https://try.github.io/levels/1/challenges/1), an interactive tutorial
 * [Learn Git Branching](http://pcottle.github.io/learnGitBranching/), an interactive tutorial
