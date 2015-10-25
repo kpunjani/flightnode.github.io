@@ -77,6 +77,9 @@ the command line. You can use the tool to perform:
 There is no `git sync` command and I don't know what the `Sync` comand here does.
 Maybe it runs pull then push?
 
+Perhaps the best thing about VSCode's integration: it makes the cumbersome process
+of un-staging and/or reverting your code changes very easy.
+
 ![Git in Visual Studio Code](http://flightnode.github.io/images/vscodeGit.png)
 
 ## Visual Studio 2015
