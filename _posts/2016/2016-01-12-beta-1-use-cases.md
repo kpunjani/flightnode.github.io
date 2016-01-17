@@ -87,9 +87,9 @@ Reporters can log bird survey data. (Referring to future functionality).
        	<img src="/images/beta1_authenticated.png" id="modalAuthenticated" width="898" height="286">
        	<img src="/images/beta1_users.png" id="modalUsers" width="993" height="583">
        	<img src="/images/beta1_filter.png" id="modalFilter" width="999" height="575">
-       	<img src="/images/beta1_editUser.png" id="modalFilter" width="1000" height="898">
+       	<img src="/images/beta1_editUser.png" id="modalEditUser" width="1000" height="898">
        	<img src="/images/beta1_logWorkday.png" id="modalLog" width="984" height="865">
-       	<img src="/images/beta1_logWorkList.png" id="modalWorkList" width="984" height="865">
+       	<img src="/images/beta1_workdays.png" id="modalWorkList" width="984" height="865">
     </div>
   </div>
 </div>
@@ -100,6 +100,7 @@ $(function() {
 		$("#modalHome").hide();
 		$("#modalAuthenticated").hide();
 		$("#modalUsers").hide();
+		$("#modalUserEdit").hide();
 		$("#modalFilter").hide();
 		$("#modalLog").hide();
 		$("#modalWorkList").hide();
