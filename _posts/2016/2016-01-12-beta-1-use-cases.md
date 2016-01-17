@@ -17,15 +17,15 @@ class="popup-img center-block" data-toggle="modal" data-target="#imgModal">
 ## Context-Aware Navigation
 
 Although eventually there will be more roles, for now there are effectively just 
-two: Reporter and Administrator. The user naturally should see different 
-navigation links when logged in.
+two: Reporter and Administrator. Each user naturally should see only navigation 
+links relevant to their role.
 
 <img src="/images/beta1_authenticated_small.png" width="449" height="143" id="imgAuthenticated" 
 class="popup-img center-block" data-toggle="modal" data-target="#imgModal">
 
 ## User List
 
-As an Administrator, I want to view a list of existing users, so that I can
+* As an Administrator, I want to view a list of existing users, so that I can
 find a user to edit.
 
 <img src="/images/beta1_users_small.png" width="397" height="230" id="imgUsers" 
@@ -33,7 +33,7 @@ class="popup-img center-block" data-toggle="modal" data-target="#imgModal">
 
 ## List Filtering
 
-As an Administrator, I want to filter the user list so that, so that I can more
+* As an Administrator, I want to filter the user list so that, so that I can more
 quickly find a particular user.
 
 <img src="/images/beta1_filter_small.png" width="400" height="230" id="imgFilter" 
@@ -41,18 +41,17 @@ class="popup-img center-block" data-toggle="modal" data-target="#imgModal">
 
 ## User Create and Edit
 
-As an Administrator, I want to create / edit a user, so that user can sign-on
-to the system.
+* As an Administrator, I want to create / edit a user, so that I can maintain
+the person's contact information.
 
 <img src="/images/beta1_filter_small.png" width="400" height="230" id="imgFilter" 
 class="popup-img center-block" data-toggle="modal" data-target="#imgModal">
 
 ## Log a Workday
 
-As an Administrator, I want to log a volunteer workday on behalf of a 
+* As an Administrator, I want to log a volunteer workday on behalf of a 
 Reporter, so that I can track volunteer hours.
-
-As a Reporter, I want to log my own workday, so that the project can
+* As a Reporter, I want to log my own workday, so that the project can
 track my volunteer hours. (Not shown).
 
 <img src="/images/beta1_logWorkday_small.png" width="394" height="346" id="imgLog" 
@@ -60,16 +59,13 @@ class="popup-img center-block" data-toggle="modal" data-target="#imgModal">
 
 ## List Workdays
 
-As an Administrator, I want to list all workday logs, so that I can make
+* As an Administrator, I want to list all workday logs, so that I can make
 corrections as needed.
-
-As a Reporter, I want to list all of my workday logs, so that I can make 
+* As a Reporter, I want to list all of my workday logs, so that I can make 
 corrections as needed. (Not shown).
-
-As an Administrator, I want export all workday logs, so that I can analyze
+* As an Administrator, I want export all workday logs, so that I can analyze
 the data outside of the website. (Only the button shown).
-
-As a Reporter, I want to export all of my workday logs, so that I can tally
+* As a Reporter, I want to export all of my workday logs, so that I can tally
 my volunteer hours. (Not shown).
 
 <img src="/images/beta1_workdays_small.png" width="394" height="346" id="imgWorkList" 
@@ -77,13 +73,11 @@ class="popup-img center-block" data-toggle="modal" data-target="#imgModal">
 
 ## Supporting Stories
 
-As an Adminstrator, I want to list / create / edit geographic locations, so
+* As an Adminstrator, I want to list / create / edit geographic locations, so
 that Reporters can log time at specific locations.
-
-As an Administrator, I want to list / create / edit work types, so that 
+* As an Administrator, I want to list / create / edit work types, so that 
 Reporters can log time for a specific type of work.
-
-As an Administrator, I want to list / create / edit bird species, so that
+* As an Administrator, I want to list / create / edit bird species, so that
 Reporters can log bird survey data. (Referring to future functionality).
 
 <div class="modal fade" tabindex="-1" role="dialog" id="imgModal">
@@ -103,6 +97,11 @@ Reporters can log bird survey data. (Referring to future functionality).
 $(function() {
 	var hideAll = function() {
 		$("#modalHome").hide();
+		$("#modalAuthenticated").hide();
+		$("#modalUsers").hide();
+		$("#modalFilter").hide();
+		$("#modalLog").hide();
+		$("#modalWorkList").hide();
 	};
 	hideAll();
 
