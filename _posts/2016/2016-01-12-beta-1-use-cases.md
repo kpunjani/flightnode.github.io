@@ -44,7 +44,7 @@ class="popup-img center-block" data-target="#imgModal">
 * As an Administrator, I want to create / edit a user, so that I can maintain
 the person's contact information.
 
-<img src="/images/beta1_filter_small.png" width="400" height="230" id="imgFilter" 
+<img src="/images/beta1_editUser_small.png" width="402" height="359" id="imgEditUser" 
 class="popup-img center-block" data-target="#imgModal">
 
 ## Log a Workday
@@ -87,6 +87,7 @@ Reporters can log bird survey data. (Referring to future functionality).
        	<img src="/images/beta1_authenticated.png" id="modalAuthenticated" width="898" height="286">
        	<img src="/images/beta1_users.png" id="modalUsers" width="993" height="583">
        	<img src="/images/beta1_filter.png" id="modalFilter" width="999" height="575">
+       	<img src="/images/beta1_editUser.png" id="modalFilter" width="1000" height="898">
        	<img src="/images/beta1_logWorkday.png" id="modalLog" width="984" height="865">
        	<img src="/images/beta1_logWorkList.png" id="modalWorkList" width="984" height="865">
     </div>
@@ -109,16 +110,17 @@ $(function() {
 		return function() {
 			hideAll();
  			$("#"+id).show();
- 			$("imgModal").modal("toggle");
+ 			$("#imgModal").modal("toggle");
 		}
 	};
 
 	$("#imgHome").click(reveal("modalHome"));
-	$("imgAuthenticated").click(reveal("modalAuthenticated"));
-	$("imgUsers").click(reveal("modalUsers"));
-	$("imgFilter").click(reveal("modalFilter"));
-	$("imgLog").click(reveal("modalLog"));
-	$("imgWorkList").click(reveal("modalWorkList"));
+	$("#imgAuthenticated").click(reveal("modalAuthenticated"));
+	$("#imgUsers").click(reveal("modalUsers"));
+	$("#imgEditUser").click(reveal("modalUsers"));
+	$("#imgFilter").click(reveal("modalFilter"));
+	$("#imgLog").click(reveal("modalLog"));
+	$("#imgWorkList").click(reveal("modalWorkList"));
 });
 </script>       
         
