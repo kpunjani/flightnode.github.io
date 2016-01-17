@@ -12,7 +12,7 @@ The first beta release of FlightNode is now alive and in the hands of testers.
 So what's been delivered?
 
 <img src="/images/beta1_home_small.png" width="395" height="221" id="imgHome" 
-class="popup-img center-block" data-toggle="modal" data-target="#imgModal">
+class="popup-img center-block" data-target="#imgModal">
 
 ## Context-Aware Navigation
 
@@ -21,7 +21,7 @@ two: Reporter and Administrator. Each user naturally should see only navigation
 links relevant to their role.
 
 <img src="/images/beta1_authenticated_small.png" width="449" height="143" id="imgAuthenticated" 
-class="popup-img center-block" data-toggle="modal" data-target="#imgModal">
+class="popup-img center-block" data-target="#imgModal">
 
 ## User List
 
@@ -29,7 +29,7 @@ class="popup-img center-block" data-toggle="modal" data-target="#imgModal">
 find a user to edit.
 
 <img src="/images/beta1_users_small.png" width="397" height="230" id="imgUsers" 
-class="popup-img center-block" data-toggle="modal" data-target="#imgModal">
+class="popup-img center-block" data-target="#imgModal">
 
 ## List Filtering
 
@@ -37,7 +37,7 @@ class="popup-img center-block" data-toggle="modal" data-target="#imgModal">
 quickly find a particular user.
 
 <img src="/images/beta1_filter_small.png" width="400" height="230" id="imgFilter" 
-class="popup-img center-block" data-toggle="modal" data-target="#imgModal">
+class="popup-img center-block" data-target="#imgModal">
 
 ## User Create and Edit
 
@@ -45,7 +45,7 @@ class="popup-img center-block" data-toggle="modal" data-target="#imgModal">
 the person's contact information.
 
 <img src="/images/beta1_filter_small.png" width="400" height="230" id="imgFilter" 
-class="popup-img center-block" data-toggle="modal" data-target="#imgModal">
+class="popup-img center-block" data-target="#imgModal">
 
 ## Log a Workday
 
@@ -55,7 +55,7 @@ Reporter, so that I can track volunteer hours.
 track my volunteer hours. (Not shown).
 
 <img src="/images/beta1_logWorkday_small.png" width="394" height="346" id="imgLog" 
-class="popup-img center-block" data-toggle="modal" data-target="#imgModal">
+class="popup-img center-block" data-target="#imgModal">
 
 ## List Workdays
 
@@ -68,8 +68,8 @@ the data outside of the website. (Only the button shown).
 * As a Reporter, I want to export all of my workday logs, so that I can tally
 my volunteer hours. (Not shown).
 
-<img src="/images/beta1_workdays_small.png" width="394" height="346" id="imgWorkList" 
-class="popup-img center-block" data-toggle="modal" data-target="#imgModal">
+<img src="/images/beta1_workdays_small.png" width="393" height="235" id="imgWorkList" 
+class="popup-img center-block" data-target="#imgModal">
 
 ## Supporting Stories
 
@@ -109,6 +109,7 @@ $(function() {
 		return function() {
 			hideAll();
  			$("#"+id).show();
+ 			$("imgModal").modal("toggle");
 		}
 	};
 
