@@ -16,16 +16,24 @@ to build sets of components that can be separated from each other easily, thus
 allowing re-mixing of solutions, a high degree of code sharing, and simple
 replacement of components.
 
-### Micro Services
+### Micro Services - DEPRECATED
 
-The micro service concept is a powerful way to achieve loose coupling. In comes
+*Original*: <span style="color: red">The micro service concept is a powerful 
+way to achieve loose coupling. In comes
 down to this: instead of putting all of your API services into one project,
 you spread them out into several coherent packages, each of which is ideally
 installed separately. This lowers your risk when it is time to update or replace 
 components. Because FlightNode software is likely to be installed on low
 budget shared servers, literally having separate service installs might be a hassle,
 so we'll try to build services in such a way that they can run standalone or
-integrated with other projects. 
+integrated with other projects.</span>
+
+Micro services are a great concept, but the separation of code into many different
+services was proving to be a burden with respect to development, coding, and 
+deployment. This burden might be worthwhile in an enterprise environment with
+real-world scalability problems, but the benefits in this situation are too small
+to be worth the cost. Therefore the API services have been consolidated into 
+a single .NET solution, although it still contains multiple projects / assemblies.
 
 ### Careful Encapsulation
 
@@ -62,25 +70,20 @@ the FlightNode platform.
 
 [Repository](https://github.com/FlightNode/FlightNode.Demo)
 
-#### FlightNode.Identity
+#### FlightNode.Api
 
-.NET 4.5.2 package based on ASP.NET Identity, providing authentication and authorization
-using OAuth2.
+WebApi / .NET 4.5.2 solution containing the back-end code for FlightNode. Consists
+of the following projects:
 
-[Repository](https://github.com/FlightNode/FlightNode.Identity)
+* _Common_: contains a handful of general utilities / shared code used across the other projects.
+* _Common.Api_: contains some API-specific shared code used in the other projects.
+* _DataCollection_: provides data collection and reporting capabilities.
+* _Identity_: based on ASP.NET Identity, providing authentication and authorization
+   using OAuth2, as well as user management.
+* _Service_: hosts the other two projects as either an IIS website or a stand-alone
+  Windows sevice.
 
-#### FlightNode.DataCollection
-
-.NET 4.5.2 package providing data collection and reporting capabilities. May need to
-include user management here.
-
-[Repository](https://github.com/FlightNode/FlightNode.DataCollection)
-
-#### FlightNode.Common
-
-.NET 4.5.2 library for cross-cutting concerns used in the other projects.
-
-[Repository](https://github.com/FlightNode/FlightNode.Common)
+[Repository](https://github.com/FlightNode/FlightNode.Api)
 
 #### flightnode.github.io
 
