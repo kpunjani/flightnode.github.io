@@ -69,3 +69,8 @@ h2 {
     padding: .1em;     
     border-radius: 4px;
 }
+
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
