@@ -63,3 +63,9 @@ h1 {
 h2 {
 	border-bottom: 1px solid #C5CCD4;
 }
+
+.logo { 
+	background-color: #fff;
+    padding: .1em;     
+    border-radius: 4px;
+}
