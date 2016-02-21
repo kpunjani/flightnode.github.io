@@ -8,14 +8,7 @@ permalink: /archive/:year/:month/:day/:title/
 paginate: 10
 paginate_path: "page/:num"
 category_dir: categories
-markdown: redcarpet
-redcarpet:
-  extensions:
-    - tables
-    - footnotes
-    - no_intra_emphasis
-    - autolink
-    - strikethrough
+markdown: kramdown
 
 gems:
   - jeykll-sitemap

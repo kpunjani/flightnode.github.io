@@ -14,7 +14,7 @@ concept. Follow that link for a full description of the concept. Because my
 graphics toolkit is currently limited, my diagram for FlightNode has boxes 
 instead of concentric onion-looking circles...
 
-<div style="text-align: center">
+<div style="text-align: center; margin-bottom: 1em;">
 <img src="/images/flightnode.onion.png">
 </div>
 
