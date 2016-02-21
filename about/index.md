@@ -3,7 +3,8 @@ layout: page
 title: About FlightNode
 date: 20 September 2015
 comments: false
-categories: [meta]
+category: about
+tags: [meta]
 sharing: true
 ---
 

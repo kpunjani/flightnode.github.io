@@ -1,0 +1,20 @@
+- slug: meta
+  name: Meta
+  
+- slug: user
+  name: Users and Roles
+  
+- slug: birds
+  name: Birds and Conservation
+  
+- slug: toolkit
+  name: Development Toolkit
+  
+- slug: architecture
+  name: System Architecture
+  
+- slug: code
+  name: Code
+
+- slug: features
+  name: Features

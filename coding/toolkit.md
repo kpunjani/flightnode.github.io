@@ -1,13 +1,11 @@
 ---
 layout: page
 title: Development Toolkit
-date: 20 September 2015
 comments: false
-categories: [tools]
+category: programming
+tags: [toolkit]
 sharing: true
 ---
-
-*Just sketching in the dev environment for now...*
 
 ## Development Environment
 
@@ -18,19 +16,34 @@ Minimum environment:
 
 Suggested:
 
-* Visual Studio Code for any HTML, CSS, JS work.
+* [Visual Studio Code](https://code.visualstudio.com/Docs) for any HTML, CSS, JS work.
+  * The [TypeScript Definition manager](http://definitelytyped.org/tsd/) is used for installing
+    IntelliSense definition files. Install `tsd` globally using `npm -g install tsd`.
+  * As with bower, npm, etc., you need to run install anytime the tsd.json file changes. This 
+    will download type definitions and install them into the *typings* directory. At a command
+    prompt, just run `tsd install`.    
+  * These typings give you lovely IntelliSense within VSCode, but they don't help with JSHint.
+    To eliminate JSHint warnings on legitimate globals, add the library name to the .jshintrc
+    file.
 
 ## Workspace Setup
 
 * Fork your repositories off of the main repositories of FlightNode.
-* Install Git & Git.commandline using Chocolatey. Prefer not to use Git through Visual Studio Community Edition. Visual Studio Code still has some reasonable GUI control for GitHub.
-* Locally, create a directory called 'Workspaces' (or any name of your choice).
-* In Windows explorer, right-click on 'Workspaces' and choose Git Bash. That will open the Unix-like bash prompt window, with c:\Workspaces as the current working directory.
-* mkdir FlightNode
-* cd FlightNode git clone https://github.com/<username>/FlightNode.Identity
-* cd FlightNode git clone https://github.com/<username>/FlightNode.Common
-* cd FlightNode git clone https://github.com/<username>/flightnode.github.io
-* If you are new to GitHub, then here is a fun tutorial to get you started https://try.github.io/levels/1/challenges/1
+* Install Git 2.x using Chocolatey. 
+* Locally, create a directory called `c:\Workspaces\FlightNode` (or any name of your choice).
+* Run Git-Bash (you'll may want to pin it to the taskbar or dock for easy access)
+* Create your local copies of your GitHub repositories 
+
+```bash
+mkdir FlightNode
+cd FlightNode 
+git clone https://github.com/*<username>*/FlightNode.Identity
+git clone https://github.com/*<username>*/FlightNode.Common
+git clone https://github.com/*<username>*/flightnode.Demo
+git clone https://github.com/*<username>*/flightnode.DataCollection
+```
+
+New to Git? [Here are some tips and tutorials](/archive/2015/10/24/git-tutorials-etc) 
 
 ## Testing
 

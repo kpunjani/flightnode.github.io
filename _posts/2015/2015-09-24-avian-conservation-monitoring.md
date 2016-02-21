@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: page
 title: "Why Create a Platform for Avian Conservation Monitoring?"
 date: 2015-09-24
 comments: true
-categories: [birds]
+category: about
+tags: [birds]
 ---
 
 <div class="pull-right" style="width: 185px; margin: 0 0 1.5em 1.5em">
